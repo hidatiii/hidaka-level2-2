@@ -82,6 +82,7 @@ body {
     font-size: 16px;
     line-height: 1.7;
     margin-bottom: 40px;
+    width: 400px;
 }
 
 
@@ -115,36 +116,40 @@ body {
 }
 
 
-.service-ttl{
-    max-width: 662px;
-    margin-left: auto;
-    margin-right: auto;
+.section-ttl{
+    align-items: center;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    /* margin-top: 12rem; */
+    text-align: center;
   }
 
-  .service-ttl h2{
-      font-weight: bold;
+  h2{
       font-size: 36px;
-      width: 158px;
-      margin-bottom: 109px;
+      font-weight: bold;
   }
+
+
+
+
+h2:before,
+h2:after {
+    border-top: 4px solid #109954;
+    content: "";
+    display: inline; /* for IE */
+    flex-grow: 0.3;
+}
+
+.section-ttl:before {
+    margin-right: 50px;
+    padding-left: 15px;
+}
+
+.section-ttl:after {
+    margin-left: 50px;
+    padding-right: 15px;
+}
   
-  .service-ttl .line{
-    /* width: 200px; */
-    width: 200px;
-    height: 4px;
-    background-color:green;
-    margin: 18px 50px 0 0;
-  }
-  
-  .service-ttl .line2{
-    /* width: 200px; */
-    width: 200px;
-    height: 4px;
-    background-color:green;
-    margin: 18px 0 0 54px;
-  }
 
 
 .service-img-wrapper{
@@ -153,6 +158,7 @@ body {
     margin-right: auto;
     display: flex;
     justify-content: space-between;
+    margin-top: 109px;
 }
 
 
@@ -177,9 +183,6 @@ body {
     margin-bottom: 120px;
 }
 
-/* .about-inner{
-    padding: 0 70px;
-} */
 
 
   .about-ttl{
@@ -196,19 +199,7 @@ body {
       font-weight: bold;
   }
 
-  .about-ttl .line{
-    width: 200px;
-    height: 4px;
-    background-color:green;
-    margin: 18px 50px 0 0;
-  }
-
-  .about-ttl .line-2{
-    width: 200px;
-    height: 4px;
-    background-color:green;
-    margin: 18px 0 0 50px;
-  }
+ 
 
   .about-box-1{
     display: flex;
@@ -265,7 +256,7 @@ body {
 }
 
 .more-2{
-    margin-top: 15px;
+    margin-top: 30px;
 }
 
  /* .about-img-2{
@@ -291,7 +282,7 @@ body {
      /* height: 97px; */
      line-height: 1.7;
      font-size: 16px;
-     margin-top: 15px;
+     margin-top: 30px;
  }
 
 .news a{
@@ -313,19 +304,6 @@ body {
     font-weight: bold;
 }
 
-.news-ttl .line{
-    width: 200px;
-    height: 4px;
-    background-color:green;
-    margin: 18px 50px 0 0;
-  }
-
-  .news-ttl .line-2{
-    width: 200px;
-    height: 4px;
-    background-color:green;
-    margin: 18px 0 0 50px;
-  }
 
   .border-line{
       display: block;
@@ -401,7 +379,7 @@ time{
 
 
 .more-3{
-    margin-top: 65px;
+    margin-top: 50px;
     text-align: center;
 }
 
@@ -456,7 +434,11 @@ footer{
   small{
       display: block;
       text-align: center;
-      font-size: 14px;
+      margin-top: 12px;
+  }
+
+  .footer-list a{
+    font-size: 14px;
   }
 
 
