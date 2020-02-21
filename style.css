@@ -411,6 +411,7 @@ footer{
     height: 14px;
     display: flex;
     justify-content: space-around;
+    font-size: 14px;
 }
 
 .footer-list a{
@@ -435,8 +436,14 @@ footer{
       display: block;
       text-align: center;
       margin-top: 12px;
+      font-size: 14px;
   }
 
-  .footer-list a{
-    font-size: 14px;
-  }
+  
+
+
+  
+
+
+
+
